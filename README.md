@@ -1,5 +1,5 @@
 # G.O.A.T 
-
+G.O.A.T includes 4 tools 
 ## Hasher
 Forgot md5sum was a thing?
 
