@@ -1,5 +1,8 @@
 # G.O.A.T 
-G.O.A.T includes 4 tools 
+
+<img src="https://github.com/user-attachments/assets/09aac1c9-66a1-479e-8ef3-87bfa56131b8" alt="goat" width="250"/>
+
+**G.O.A.T includes 4 tools**
 ## Hasher
 Forgot md5sum was a thing?
 
