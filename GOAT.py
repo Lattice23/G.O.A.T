@@ -191,15 +191,15 @@ def main():
                                     stars = "\4"*len(formatting)
                                     done = "\n".join(cracked_hashes)
                             
+                                if cracked_hashes == []:                 
+                                    return cprint("\tCould not find a password to the hashes",'magenta','on_light_blue',attrs=['bold'])
                                 # Writing to file
                                 with open("goat_hashes.cracked",'w') as file:
                                                      file.write(done)
  
-                    if cracked_hashes == []:                 
-                        return cprint("\tCould not find a password to the hashes",'magenta','on_light_blue',attrs=['bold'])
-                    else:
-                         cprint(f"\nCRACKED\n{stars}\n{done}\n{stars}",'red',attrs=['bold'])
-                         return cprint("\nCracked Hash(es) written to 'goat_hashes.cracked'","light_blue",attrs=['underline'])
+                    if len(cracked_hashes) >= 1:
+                        cprint(f"\nCRACKED\n{stars}\n{done}\n{stars}",'red',attrs=['bold'])
+                        return cprint("\nCracked Hash(es) written to 'goat_hashes.cracked'","light_blue",attrs=['underline'])
                 
                 else:
                     return cprint("Enter a valid number",'red',attrs=['bold']) 
