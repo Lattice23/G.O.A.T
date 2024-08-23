@@ -232,7 +232,7 @@ def main():
                             count +=1
 
                             headers = {'user-agent': 'Lattice goat searcher'}
-                            good = f"\t{colored("[+]",'green',attrs=['bold'])} successful user at {sites[site]}"
+                            good = f"\t{colored('[+]','green',attrs=['bold'])} successful user at {sites[site]}"
 
                             try:
                                 r = requests.get(sites[site],headers=headers)
