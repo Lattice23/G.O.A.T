@@ -17,6 +17,7 @@ banner =r"""
         \ \_______\\__\ \_______\\__\ \__\ \__\\__\ \__\
          \|_______\|__|\|_______\|__|\|__|\|__\|__|\|__|
                      Greatest Of All Tools 😁
+                            
                             @Lattice
     """
 cprint(banner,f'{random.choice(colors)}',attrs=['bold'])    
